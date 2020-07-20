@@ -9,3 +9,9 @@ body {
     background-image: linear-gradient(to bottom right, #3286ab, #2118c7, #c914ae);
     color: #fff;
 }
+
+.container {
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+}
