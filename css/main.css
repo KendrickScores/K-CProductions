@@ -10,8 +10,12 @@ body {
     color: #fff;
 }
 
+/*Global*/
 .container {
     width: 90%;
     overflow: hidden;
     margin: auto;
 }
+
+/*Header/Nav*/
+header {}
