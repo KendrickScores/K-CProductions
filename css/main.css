@@ -28,6 +28,11 @@ body {
     opacity: 75%;
 }
 
+.current {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
 a {
     text-decoration: none;
     color: #fff;
