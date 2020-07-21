@@ -44,7 +44,71 @@ header img {
 
 header h1 {
     position: relative;
-    top: 10px;
+    top: 20px;
     left: 10px;
-    padding-top: 20px;
+}
+
+/*Nav*/
+nav {
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, #c914ae, #2118c7, #3286ab);
+    margin-top: 19px;
+    margin-right: 10px;
+    width: 35%;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    margin-left: 12px;
+    font-size: 18px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: inline;
+    width: 60px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    position: relative;
+}
+
+/*Transitions*/
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+a:after {
+    font-weight: bold;
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 45%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
 }
