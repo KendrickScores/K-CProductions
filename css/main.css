@@ -151,4 +151,22 @@ a:hover:after {
 #boxes .box h3,
 p {
     margin-left: 55px;
+    margin-bottom: 15px;
+}
+
+#boxes .box h3 {
+    font-size: 30px;
+    text-shadow: 4px 4px #333;
+}
+
+/*Newsletter*/
+#newsletter {
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#newsletter p {
+    margin-top: 20px;
 }
