@@ -159,6 +159,11 @@ p {
     margin-bottom: 15px;
 }
 
+#boxes .box p {
+    margin-top: 15px;
+    line-height: 1.5em;
+}
+
 #boxes .box h3 {
     font-size: 30px;
     text-shadow: 4px 4px #333;
