@@ -10,6 +10,7 @@ body {
     color: #fff;
 }
 
+
 /*Global*/
 .container {
     width: 90%;
@@ -131,7 +132,7 @@ a:hover:after {
 
 /*Showcase*/
 #showcase {
-    min-height: 400px;
+    min-height: 450px;
     background: url(../img/background.jpg) no-repeat 0 -400px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
