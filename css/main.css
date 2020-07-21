@@ -103,7 +103,7 @@ nav li {
 }
 
 /*Transitions*/
-nav a {
+a {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -111,21 +111,21 @@ nav a {
     position: relative;
 }
 
-nav a:after {
+a:after {
     font-weight: bold;
     background: none repeat scroll 0 0 transparent;
-    bottom: 3;
+    bottom: 0;
     content: "";
     display: block;
     height: 2px;
-    left: 44%;
+    left: 45%;
     position: absolute;
     background: #fff;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
 
-nav a:hover:after {
+a:hover:after {
     width: 100%;
     left: 0;
 }
@@ -194,26 +194,6 @@ p {
 #newsletter p {
     margin-top: 20px;
 }
-
-
-
-/*             Schedule Css                */
-#schedule h3 {
-    font-size: 35px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-#schedule li {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-
-
-
-
-
 
 /*Footer*/
 footer {
