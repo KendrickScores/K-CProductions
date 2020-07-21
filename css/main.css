@@ -18,13 +18,19 @@ body {
     margin: auto;
 }
 
+.container2 {
+    width: 100%;
+    margin: auto;
+    overflow: hi;
+}
+
 .btn {
     padding: 10px;
     background-color: #fc2003;
 }
 
 .btn:hover {
-    transition: 0.5s;
+    transition: 0.8s;
     color: #000;
     opacity: 75%;
 }
@@ -151,34 +157,30 @@ a:hover:after {
 /*Boxes*/
 #boxes {
     margin-top: 20px;
+    text-align: center;
+    line-height: 1.5em;
 }
 
 #boxes .box {
     float: left;
-    width: 90%;
+    width: 95%;
     padding: 10px;
     text-align: center;
 }
 
-#boxes .box img {
-    width: 200px;
-    margin-left: 50px;
-}
-
 #boxes .box h3,
 p {
-    margin-left: 55px;
     margin-bottom: 15px;
 }
 
-#boxes .box p {
-    margin-top: 15px;
-    line-height: 1.5em;
+#boxes .box h3 {
+    font-size: 35px;
+    text-shadow: 4px 4px #333;
+    margin-top: 20px;
 }
 
-#boxes .box h3 {
-    font-size: 30px;
-    text-shadow: 4px 4px #333;
+#boxes .box img {
+    width: 300px;
 }
 
 /*Newsletter*/
@@ -198,9 +200,10 @@ footer {
     padding: 15px;
     background-color: orange;
     color: #fff;
+    text-align: center;
 }
 
 footer p {
-    margin-left: 490px;
+
     margin-top: 20px;
 }
