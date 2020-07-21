@@ -21,7 +21,7 @@ body {
 .container2 {
     width: 100%;
     margin: auto;
-    overflow: hi;
+    overflow: hidden;
 }
 
 .btn {
