@@ -22,6 +22,12 @@ body {
     background-color: #fc2003;
 }
 
+.btn:hover {
+    transition: 0.5s;
+    color: #000;
+    opacity: 75%;
+}
+
 a {
     text-decoration: none;
     color: #fff;
