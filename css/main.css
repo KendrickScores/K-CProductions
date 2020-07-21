@@ -170,3 +170,15 @@ p {
 #newsletter p {
     margin-top: 20px;
 }
+
+/*Footer*/
+footer {
+    padding: 15px;
+    background-color: orange;
+    color: #fff;
+}
+
+footer p {
+    margin-left: 490px;
+    margin-top: 20px;
+}
