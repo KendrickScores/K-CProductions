@@ -17,6 +17,11 @@ body {
     margin: auto;
 }
 
+.btn {
+    padding: 10px;
+    background-color: #fc2003;
+}
+
 a {
     text-decoration: none;
     color: #fff;
