@@ -130,3 +130,25 @@ a:hover:after {
 #showcase h3 {
     font-size: 15px;
 }
+
+/*Boxes*/
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img {
+    width: 200px;
+    margin-left: 50px;
+}
+
+#boxes .box h3,
+p {
+    margin-left: 55px;
+}
