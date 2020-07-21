@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
         integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
         crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../css/main.css" />
     <title>K&C Productions | Schedule</title>
 </head>
@@ -59,7 +60,7 @@
                 <li>N/A</li>
                 <li>N/A</li>
                 <li>N/A</li>
-                <h3 data-aos="fade-right" class="item" data-aos-anchor="#trigger-right">Tuesday</h3>
+                <h3>Tuesday</h3>
                 <li>N/A</li>
                 <li>N/A</li>
                 <li>N/A</li>
@@ -70,7 +71,6 @@
                 <li>N/A</li>
                 <li>N/A</li>
                 <h3>Thursday</h3>
-
                 <li>N/A</li>
                 <li>N/A</li>
                 <li>N/A</li>
@@ -78,25 +78,28 @@
                 <h3>Friday</h3>
                 <li>N/A</li>
                 <li>N/A</li>
-                <li>N/A</li>
-
+                <li id="trigger-right">N/A</li>
             </ul>
         </div>
     </section>
 
     <!--Newsletter-->
-    <section id="newsletter">
-        <div class="container" data-aos="fade-right" class="item" data-aos-anchor="#trigger-right">
+    <section id="newsletter" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="450"
+        data-aos-anchor="#trigger-right">
+        <div class="container">
             <p>Wanna be the first to hear about Upcoming News!? Then click Subscribe NOW!!! <a
                     href="../newsletter/signup.html" target="_blank" class="btn">Subscribe Now</a></p>
         </div>
     </section>
+    </div>
+
     <!--Footer-->
     <footer>
         <div class="container">
             <p>K&C Productions &copy; 2020</p>
         </div>
     </footer>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
