@@ -184,6 +184,11 @@ p {
     margin-left: 10px;
 }
 
+.box2 p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 /*Newsletter*/
 #newsletter {
     padding: 15px;
@@ -196,6 +201,10 @@ p {
     margin-top: 20px;
 }
 
+#videos {
+    margin-left: 30px;
+
+}
 
 /*             Schedule Css                */
 #schedule h3 {
@@ -226,6 +235,11 @@ p {
     margin-bottom: 15px;
     margin-top: 10px;
 }
+
+/*            Team Css                   */
+
+
+
 
 
 
