@@ -256,3 +256,15 @@ footer a {
 input[type="text"].hidden {
     display: none;
 }
+
+@media(max-width: 450px) {
+    .overlay {
+        display: none;
+    }
+
+    .sign-in-container {
+        left: 0;
+        width: 100%;
+        z-index: 2;
+    }
+}
